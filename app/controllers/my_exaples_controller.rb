@@ -12,6 +12,4 @@ class MyExaplesController < ApplicationController
     end
     render json: {message: "Here are your final numbers..", random_numbers: numbers}
   end
-
-
 end
